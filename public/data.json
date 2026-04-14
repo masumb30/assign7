@@ -2,11 +2,14 @@
   {
     "id": 1,
     "name": "Ayesha Rahman",
-    "picture": "https://example.com/ayesha.jpg",
+    "picture": "/female1.jpeg",
     "email": "ayesha.rahman@example.com",
     "days_since_contact": 3,
-    "status": "active",
-    "tags": ["work", "designer"],
+    "status": "on-track",
+    "tags": [
+      "work",
+      "designer"
+    ],
     "bio": "UI designer colleague who loves minimalism.",
     "goal": 7,
     "next_due_date": "2025-07-10"
@@ -14,11 +17,14 @@
   {
     "id": 2,
     "name": "Michael Carter",
-    "picture": "https://example.com/michael.jpg",
+    "picture": "/male1.jpg",
     "email": "michael.carter@example.com",
     "days_since_contact": 20,
     "status": "overdue",
-    "tags": ["gym", "fitness"],
+    "tags": [
+      "gym",
+      "fitness"
+    ],
     "bio": "Workout partner from the local gym.",
     "goal": 10,
     "next_due_date": "2025-07-05"
@@ -26,11 +32,14 @@
   {
     "id": 3,
     "name": "Tanvir Hasan",
-    "picture": "https://example.com/tanvir.jpg",
+    "picture": "/male2.jpg",
     "email": "tanvir.hasan@example.com",
     "days_since_contact": 5,
-    "status": "active",
-    "tags": ["school", "football"],
+    "status": "almost due",
+    "tags": [
+      "school",
+      "football"
+    ],
     "bio": "School friend, plays football every weekend.",
     "goal": 14,
     "next_due_date": "2025-07-18"
@@ -38,11 +47,13 @@
   {
     "id": 4,
     "name": "Emily Watson",
-    "picture": "https://example.com/emily.jpg",
+    "picture": "/female2.webp",
     "email": "emily.watson@example.com",
     "days_since_contact": 15,
     "status": "overdue",
-    "tags": ["book club"],
+    "tags": [
+      "book club"
+    ],
     "bio": "Met through an online book club.",
     "goal": 12,
     "next_due_date": "2025-07-08"
@@ -50,11 +61,13 @@
   {
     "id": 5,
     "name": "Rahim Uddin",
-    "picture": "https://example.com/rahim.jpg",
+    "picture": "/male3.webp",
     "email": "rahim.uddin@example.com",
     "days_since_contact": 1,
-    "status": "active",
-    "tags": ["neighbor"],
+    "status": "on-track",
+    "tags": [
+      "neighbor"
+    ],
     "bio": "Lives next door, often shares homemade food.",
     "goal": 5,
     "next_due_date": "2025-07-12"
@@ -62,11 +75,14 @@
   {
     "id": 6,
     "name": "Sophia Khan",
-    "picture": "https://example.com/sophia.jpg",
+    "picture": "/female3.jpeg",
     "email": "sophia.khan@example.com",
     "days_since_contact": 9,
-    "status": "due",
-    "tags": ["university", "project"],
+    "status": "almost due",
+    "tags": [
+      "university",
+      "project"
+    ],
     "bio": "Worked together on a final year project.",
     "goal": 10,
     "next_due_date": "2025-07-14"
@@ -74,11 +90,13 @@
   {
     "id": 7,
     "name": "David Miller",
-    "picture": "https://example.com/david.jpg",
+    "picture": "/male4.jpeg",
     "email": "david.miller@example.com",
     "days_since_contact": 30,
     "status": "overdue",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "bio": "Met during a trip, shares travel tips.",
     "goal": 20,
     "next_due_date": "2025-07-01"
@@ -86,11 +104,13 @@
   {
     "id": 8,
     "name": "Nusrat Jahan",
-    "picture": "https://example.com/nusrat.jpg",
+    "picture": "/female4.jpg",
     "email": "nusrat.jahan@example.com",
     "days_since_contact": 2,
-    "status": "active",
-    "tags": ["family"],
+    "status": "on-track",
+    "tags": [
+      "family"
+    ],
     "bio": "Cousin, close family connection.",
     "goal": 7,
     "next_due_date": "2025-07-16"
@@ -98,11 +118,14 @@
   {
     "id": 9,
     "name": "James Anderson",
-    "picture": "https://example.com/james.jpg",
+    "picture": "/male5.jpeg",
     "email": "james.anderson@example.com",
     "days_since_contact": 11,
-    "status": "due",
-    "tags": ["freelance", "client"],
+    "status": "almost due",
+    "tags": [
+      "freelance",
+      "client"
+    ],
     "bio": "Freelance client for web development projects.",
     "goal": 14,
     "next_due_date": "2025-07-15"
@@ -110,11 +133,13 @@
   {
     "id": 10,
     "name": "Arif Chowdhury",
-    "picture": "https://example.com/arif.jpg",
+    "picture": "/male6.jpg",
     "email": "arif.chowdhury@example.com",
     "days_since_contact": 6,
-    "status": "active",
-    "tags": ["startup"],
+    "status": "almost due",
+    "tags": [
+      "startup"
+    ],
     "bio": "Co-founder of a small startup idea.",
     "goal": 10,
     "next_due_date": "2025-07-19"

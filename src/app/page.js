@@ -1,3 +1,4 @@
+import FriendsContainer from "@/Components/FriendsContainer";
 import Image from "next/image";
 
 export default function Home() {
@@ -52,7 +53,9 @@ export default function Home() {
         </div>
       </div>
 
-
+      <p className="text-2xl font-bold mt-5">Your Friends:</p>
+      {/* frnds container */}
+      <FriendsContainer />
 
     </div>
   );

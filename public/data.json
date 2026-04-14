@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "https://example.com/ayesha.jpg",
+    "email": "ayesha.rahman@example.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": ["work", "designer"],
+    "bio": "UI designer colleague who loves minimalism.",
+    "goal": 7,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 2,
+    "name": "Michael Carter",
+    "picture": "https://example.com/michael.jpg",
+    "email": "michael.carter@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "fitness"],
+    "bio": "Workout partner from the local gym.",
+    "goal": 10,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hasan",
+    "picture": "https://example.com/tanvir.jpg",
+    "email": "tanvir.hasan@example.com",
+    "days_since_contact": 5,
+    "status": "active",
+    "tags": ["school", "football"],
+    "bio": "School friend, plays football every weekend.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Emily Watson",
+    "picture": "https://example.com/emily.jpg",
+    "email": "emily.watson@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["book club"],
+    "bio": "Met through an online book club.",
+    "goal": 12,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 5,
+    "name": "Rahim Uddin",
+    "picture": "https://example.com/rahim.jpg",
+    "email": "rahim.uddin@example.com",
+    "days_since_contact": 1,
+    "status": "active",
+    "tags": ["neighbor"],
+    "bio": "Lives next door, often shares homemade food.",
+    "goal": 5,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Khan",
+    "picture": "https://example.com/sophia.jpg",
+    "email": "sophia.khan@example.com",
+    "days_since_contact": 9,
+    "status": "due",
+    "tags": ["university", "project"],
+    "bio": "Worked together on a final year project.",
+    "goal": 10,
+    "next_due_date": "2025-07-14"
+  },
+  {
+    "id": 7,
+    "name": "David Miller",
+    "picture": "https://example.com/david.jpg",
+    "email": "david.miller@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["travel"],
+    "bio": "Met during a trip, shares travel tips.",
+    "goal": 20,
+    "next_due_date": "2025-07-01"
+  },
+  {
+    "id": 8,
+    "name": "Nusrat Jahan",
+    "picture": "https://example.com/nusrat.jpg",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 2,
+    "status": "active",
+    "tags": ["family"],
+    "bio": "Cousin, close family connection.",
+    "goal": 7,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 9,
+    "name": "James Anderson",
+    "picture": "https://example.com/james.jpg",
+    "email": "james.anderson@example.com",
+    "days_since_contact": 11,
+    "status": "due",
+    "tags": ["freelance", "client"],
+    "bio": "Freelance client for web development projects.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 10,
+    "name": "Arif Chowdhury",
+    "picture": "https://example.com/arif.jpg",
+    "email": "arif.chowdhury@example.com",
+    "days_since_contact": 6,
+    "status": "active",
+    "tags": ["startup"],
+    "bio": "Co-founder of a small startup idea.",
+    "goal": 10,
+    "next_due_date": "2025-07-19"
+  }
+]

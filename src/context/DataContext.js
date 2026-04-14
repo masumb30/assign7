@@ -7,11 +7,12 @@ const DataContext = createContext();
 export const useData = () => useContext(DataContext);
 
 export function DataProvider({ children }) {
-  const [theme, setTheme] = useState("light");
-  const toggleTheme = () => setTheme(p => p === "light" ? "dark" : "light");
-
+  const [checkIns, setCheckIns] = useState([]);
+  const addCheckIn = (checkIn) => {
+    setCheckIns([...checkIns, checkIn]);
+  };
   return (
-    <DataContext.Provider value={{ theme, toggleTheme }}>
+    <DataContext.Provider value={{ checkIns, addCheckIn }}>
       {children}
     </DataContext.Provider>
   );

@@ -27,10 +27,14 @@ export default function PieChartWithPaddingAngle({ isAnimationActive = true }) {
 
     return (
         <>
+            <h1 className='text-2xl font-bold text-left mb-4'>Friendship Analytics</h1>
             {
                 checkIns.length > 0 ?
 
-                    <div className='flex justify-center items-center flex-col'>
+                    <div className='flex justify-center items-center flex-col shadow-sm rounded-sm bg-teal-100/30 px-4 py-4'>
+                        <div className="text-left w-full">
+                            <p>By Interaction Type:</p>
+                        </div>
 
                         <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '40vh', aspectRatio: 1 }} responsive>
                             <Tooltip
@@ -64,9 +68,10 @@ export default function PieChartWithPaddingAngle({ isAnimationActive = true }) {
 
                     </div>
                     :
-                    <div className='flex flex-col items-center justify-center h-[40vh] bg-red-100/20 text-red-500'>
+                    <div className='flex flex-col items-center justify-center h-[40vh] bg-red-100/20 text-red-500 rounded-lg shadow-sm'>
                         <p>NO Check-Ins yet</p>
-                        <p className='text-xl'>Check up on your friedns first</p>
+                        <p className='text-3xl'>You are a bad friend</p>
+                        <p className='text-xl'>Check up on your friends</p>
                     </div>
             }
 

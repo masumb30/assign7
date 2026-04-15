@@ -1,5 +1,5 @@
 "use client";
-
+import { useState } from "react";
 import { useData } from "@/context/DataContext";
 
 export default function Timeline() {
@@ -24,6 +24,14 @@ export default function Timeline() {
         ),
     };
 
+    const [filter, setFilter] = useState('all');
+    const filterFunction = (checkIns, filter) => {
+        if (filter === 'all') {
+            return checkIns;
+        }
+        return checkIns.filter((checkIn) => checkIn.type === filter);
+    }
+
     return (
         <div className=" ">
             <h2 className="text-3xl font-bold text-slate-800 mb-6 text-left">Timeline</h2>
@@ -31,8 +39,12 @@ export default function Timeline() {
             {/* Filter Placeholder */}
             <div className="mb-8 flex ">
                 <div className="relative w-64">
-                    <select className="w-full bg-white border border-gray-200 text-gray-400 py-2 px-4 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                        <option>Filter timeline</option>
+                    <select value={filter} onChange={(e) => setFilter(e.target.value)} className="w-full bg-white border border-gray-200 text-gray-400 py-2 px-4 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500">
+
+                        <option>all</option>
+                        <option>call</option>
+                        <option>text</option>
+                        <option>video</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">
                         <svg className="fill-current h-4 w-4" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
@@ -45,7 +57,7 @@ export default function Timeline() {
                 {checkIns.length === 0 ? (
                     <p className="text-gray-400 italic">No interactions recorded yet.</p>
                 ) : (
-                    checkIns.map((log) => (
+                    filterFunction(checkIns, filter).map((log) => (
                         <div
                             key={log.id}
                             className="flex items-center gap-6 bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"

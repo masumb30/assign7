@@ -17,7 +17,7 @@ export default async function FriendsContainer() {
     const friends = await getFriends();
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-1">
             {friends.map((friend) => (
                 <Link
                     key={friend.id}

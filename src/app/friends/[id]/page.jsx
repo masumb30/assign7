@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 async function getFriendData(id) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const baseUrl = 'https://keenkeeper-mu.vercel.app';
   const res = await fetch(`${baseUrl}/data.json`, { next: { revalidate: 3600 } });
 
   if (!res.ok) return null;

@@ -85,7 +85,7 @@ export default async function FriendDetailsPage({ params }) {
             <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">Goal (Days)</p>
           </div>
           <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center">
-            <p className="text-2xl font-bold text-emerald-800">
+            <p className="text-sm md:text-2xl font-bold text-emerald-800">
               {new Date(friend.next_due_date).toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',

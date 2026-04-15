@@ -57,9 +57,9 @@ export default function Timeline() {
                 {checkIns.length === 0 ? (
                     <p className="text-gray-400 italic">No interactions recorded yet.</p>
                 ) : (
-                    filterFunction(checkIns, filter).map((log) => (
+                    filterFunction(checkIns, filter).map((log, i) => (
                         <div
-                            key={log.id}
+                            key={i}
                             className="flex items-center gap-6 bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
                         >
                             {/* Icon Container */}

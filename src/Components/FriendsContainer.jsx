@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 async function getFriends() {
     // fetch data
-    const baseUrl = 'http://localhost:3000';
+    const baseUrl = 'https://keenkeeper-mu.vercel.app';
     const res = await fetch(`${baseUrl}/data.json`, { cache: 'no-store' });
 
     if (!res.ok) {

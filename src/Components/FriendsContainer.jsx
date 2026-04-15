@@ -1,8 +1,7 @@
 import Link from 'next/link';
 
 async function getFriends() {
-    // In Next.js, local public files are accessed via absolute path from root
-    // We use a full URL for the fetch to work during the build process/server-side
+    // fetch data
     const baseUrl = 'http://localhost:3000';
     const res = await fetch(`${baseUrl}/data.json`, { cache: 'no-store' });
 
